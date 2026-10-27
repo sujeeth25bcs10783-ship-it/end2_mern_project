@@ -4,6 +4,14 @@ A full-stack social media application built using the MERN stack (MongoDB, Expre
 
 ---
 
+## 🌐 Live Deployment Links
+
+- **Live Application (Frontend on Vercel)**: [https://end2-mern-projects.vercel.app](https://end2-mern-projects.vercel.app)
+- **API Server (Backend on Render)**: [https://end2-mern-project.onrender.com](https://end2-mern-project.onrender.com)
+- **Health Check Endpoint**: [https://end2-mern-project.onrender.com/health](https://end2-mern-project.onrender.com/health)
+
+---
+
 ## 🎥 Project Demo Video
 
 - **Demo Video Link**: [Watch Full Project Demo on Google Drive](https://drive.google.com/file/d/1LGjUDvaqNF9bT7zLhpoRGeKlk3zXuxZP/view?usp=drivesdk)
@@ -93,7 +101,7 @@ A full-stack social media application built using the MERN stack (MongoDB, Expre
    Configure the following in `backend/.env`:
    ```env
    PORT=8084
-   CLIENT_URL=http://localhost:5173
+   CLIENT_URL=https://end2-mern-projects.vercel.app
    NODE_ENV=development
    JWT_SECRET=your_jwt_secret_key
    dbURL=mongodb://127.0.0.1:27017/social_media_app
@@ -125,7 +133,7 @@ A full-stack social media application built using the MERN stack (MongoDB, Expre
 3. Configure environment variables:
    Create a `.env` file in `frontend/vite-project/`:
    ```env
-   VITE_API_URL=http://localhost:8084
+   VITE_API_URL=https://end2-mern-project.onrender.com
    ```
 
 4. Start the frontend development server:
@@ -160,7 +168,7 @@ A full-stack social media application built using the MERN stack (MongoDB, Expre
 
 ---
 
-## Deployment Ready
+## Deployment Configuration
 
-- **Backend**: Ready to deploy on Render (configured with dynamic port, CORS origins, and production cookie settings).
-- **Frontend**: Ready to deploy on Vercel with SPA rewrite rules in `vercel.json`.
+- **Backend**: Deployed on Render (`https://end2-mern-project.onrender.com`)
+- **Frontend**: Deployed on Vercel (`https://end2-mern-projects.vercel.app`) with SPA rewrite rules in `vercel.json`
