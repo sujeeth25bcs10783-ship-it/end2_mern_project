@@ -1,6 +1,6 @@
 // Create a Story
 
-import Story from "../models/Story.model.js"
+import Story from "../models/story.model.js"
 import User from "../models/user.model.js"
 import uploadToCloudinary from "../utils/uploadToCloudinary.js"
 
